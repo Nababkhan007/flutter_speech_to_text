@@ -1,4 +1,4 @@
-name: speech_to_text
+name: speech_text
 description: A simple project for Speech to Text conversion.
 
 # The following line prevents the package from being accidentally published to
@@ -31,7 +31,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  speech_to_text: ^6.1.1
+  avatar_glow: ^2.0.2
+  url_launcher: ^6.1.8
+  clipboard: ^0.1.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
