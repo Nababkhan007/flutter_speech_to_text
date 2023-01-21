@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:speech_text/view/speech_text_view.dart';
 
 void main() => runApp(const SpeechToText());
 
@@ -12,11 +13,7 @@ class SpeechToText extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Speech to Text"),
-        ),
-      ),
+      home: const SpeechTextView(),
     );
   }
 }
